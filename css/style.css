@@ -215,6 +215,7 @@ li{
 }
 .peliculas-recomendadas .contenedor-carrusel{
     width: 100%;
+    height: 350px;
     padding: 20px 0;
     overflow: hidden; /*aqui si sobre sale del documento que corte las imagenes,limite*/
     scroll-behavior: smooth;
@@ -239,6 +240,39 @@ li{
 	width: 100%;
 	vertical-align: top;
 }
+/*------titulos de las peliculas y duracion-----------*/
+.pelicula2{
+    position: relative;
+}
+.encima{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 15px;
+    color: #fff;
+}
+.encima{
+    display: flex; 
+    align-items: center;
+       
+}
+.encima > p{
+    margin-left: 70px;
+}
+.encima > i{
+    color: #E2618A;
+    font-size: 25px;
+}
+.pelicula2 .titu_peli{
+    margin-top: 10px;
+}
+.pelicula2 .titu_peli > h2,p{
+    color: #fff;
+    font-weight: 400;
+}
+
+
+/*----------------------------------------------------*/
 /*-------------------------------------------------*/
 /*--FOOTER----------*/
 footer{
