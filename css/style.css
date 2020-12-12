@@ -1,198 +1,241 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #1e2635;
 }
-.menu ul li a{
+
+.menu ul li a {
     list-style: none;
     text-decoration: none;
 }
-.contenedor{
+
+.contenedor {
     width: 100%;
     max-width: 1200px;
-    margin: auto; /*centra todo*/
-    overflow: hidden;/*hace que no rebalse haciendo el corte*/    
+    margin: auto;
+    /*centra todo*/
+    overflow: hidden;
+    /*hace que no rebalse haciendo el corte*/
 }
-.contenedor1{
+
+.contenedor1 {
     width: 100%;
     max-width: 1200px;
-    margin: auto; /*centra todo*/
-    overflow: hidden;/*hace que no rebalse haciendo el corte*/
-    padding: 60px 0;  
+    margin: auto;
+    /*centra todo*/
+    overflow: hidden;
+    /*hace que no rebalse haciendo el corte*/
+    padding: 60px 0;
 }
-.contenedor2{
-    width: 100%;    
-    margin: auto; /*centra todo*/   
-    
-    padding: 60px 0;  
+
+.contenedor2 {
+    width: 100%;
+    margin: auto;
+    /*centra todo*/
+    padding: 60px 0;
 }
-.contenedor3{
+
+.contenedor3 {
     width: 100%;
     max-width: 1440px;
-    margin: auto; /*centra todo*/
-    overflow: hidden;/*hace que no rebalse haciendo el corte*/    
+    margin: auto;
+    /*centra todo*/
+    overflow: hidden;
+    /*hace que no rebalse haciendo el corte*/
 }
-header{
-    background-color: #11151e;;
+
+header {
+    background-color: #11151e;
+    ;
 }
+
 /*--MENU--*/
-.nav{
-    width:100%;
+.nav {
+    width: 100%;
     height: 80px;
-    background-color: #11151e;; /*#11151e;*/
+    background-color: #11151e;
+    ;
+    /*#11151e;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #fff;
 }
-ul, ol{
+
+ul,
+ol {
     list-style: none;
 }
-.menu li{
+
+.menu li {
     float: left;
     margin-left: 20px;
     display: block;
 }
-.menu li a{
-    color: #fff;    
-}
-li{
-    display: none;
-         
-}
-.menu .desple{
-    display: none;    
-    position: fixed;
-    background-color: #11151e;
-    color: #fff; 
-    width: 149px;
-    height: 226px;
-    padding-top: 40px;           
-}
-.menu .desple > a{
-   display: block;
-   text-align: center;
-   padding: 8px 0;
-   text-align: center;   
+
+.menu li a {
+    color: #fff;
 }
 
-.menu li:hover .desple{
+li {
+    display: none;
+
+}
+
+.menu .desple {
+    display: none;
+    position: fixed;
+    background-color: #11151e;
+    color: #fff;
+    width: 149px;
+    height: 226px;
+    padding-top: 40px;
+}
+
+.menu .desple>a {
     display: block;
-   
+    text-align: center;
+    padding: 8px 0;
+    text-align: center;
+}
+
+.menu li:hover .desple {
+    display: block;
+
     transition: 2s ease;
 }
-.menu li a:hover{
-    background: rgba(0,204,255,1);
+
+.menu li a:hover {
+    background: rgba(0, 204, 255, 1);
     transition: 1s;
-    
+
 }
+
 /*-----------------------------------------*/
 /*--seccion de las peliculas--*/
-.titulo{
+.titulo {
     width: 210px;
     height: 33;
     top: 105px;
     left: 47;
 }
-.titulo h2{
+
+.titulo h2 {
     color: #fff;
     font-weight: 400;
     margin-bottom: 25px;
-   
+
 }
-.galeria-peliculas{
+
+.galeria-peliculas {
     display: flex;
     align-items: center;
     justify-content: space-around
 }
-.pelicula{
+
+.pelicula {
     margin-left: 20px;
 }
-.img-pelicula{
+
+.img-pelicula {
     width: 240px;
     height: 310px;
 }
-.img-pelicula img{
+
+.img-pelicula img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
 }
+
 /*------------------------------------*/
 /* seccion de peliculas carrusel */
-.pelicula2{
+.pelicula2 {
     width: 250px;
     height: 189px;
     margin-left: 10px;
 }
-.pelicula2 a img{
+
+.pelicula2 a img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
 }
-.peliculas-recomendadas{
-    margin-bottom: 70px;
+
+.peliculas-recomendadas {
+    margin-bottom: 20px 10px;
 }
-.peliculas-recomendadas .contenedor-principal{
+
+.peliculas-recomendadas .contenedor-principal {
     display: flex;
     align-items: center;
     position: relative;
 }
+
 /*--contenedor titulos y controles-----*/
-.contenedor-titulo-controles{
+.contenedor-titulo-controles {
     width: 95%;
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
-    align-items: end;    
+    align-items: end;
     margin: auto;
 }
-.peliculas-recomendadas h3{
+
+.peliculas-recomendadas h3 {
     color: #fff;
     font-weight: 400;
     font-size: 30px;
     padding-left: 30px;
 }
-.contenedor-titulo-controles .indicadores{
+
+.contenedor-titulo-controles .indicadores {
     margin: auto;
 }
-.contenedor-titulo-controles .indicadores button{
+
+.contenedor-titulo-controles .indicadores button {
     background: #fff;
     height: 10px;
     width: 20px;
     cursor: pointer;
     border: none;
-    margin-right:2px;
+    margin-right: 2px;
     border-radius: 10px;
-    
+
 }
-/**************/
-.contenedor-titulo-controles .indicadores2{
+
+/*-------------------------------------------------------*/
+.contenedor-titulo-controles .indicadores2 {
     margin: auto;
 }
-.contenedor-titulo-controles .indicadores2 button{
+
+.contenedor-titulo-controles .indicadores2 button {
     background: #fff;
     height: 10px;
     width: 20px;
     cursor: pointer;
     border: none;
-    margin-right:2px;
+    margin-right: 2px;
     border-radius: 10px;
-    
+
 }
+
 /***************/
 .contenedor-titulo-controles .indicadores button:hover,
-.contenedor-titulo-controles .indicadores button.activo{
+.contenedor-titulo-controles .indicadores button.activo {
     background: crimson;
 }
+
 .peliculas-recomendadas .contenedor-principal .flecha-izquierda,
-.peliculas-recomendadas .contenedor-principal .flecha-derecha{
+.peliculas-recomendadas .contenedor-principal .flecha-derecha {
     position: absolute;
     border: none;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0, 0, 0, 0.3);
     font-size: 40px;
     height: 50%;
     top: calc(50% -25%);
@@ -203,159 +246,219 @@ li{
     z-index: 500;
     transition: .2s ease all;
 }
+
 .peliculas-recomendadas .contenedor-principal .flecha-izquierda:hover,
-.peliculas-recomendadas .contenedor-principal .flecha-derecha:hover{
-    background: rgba(0,0,0,0.9);
+.peliculas-recomendadas .contenedor-principal .flecha-derecha:hover {
+    background: rgba(0, 0, 0, 0.9);
 }
-.peliculas-recomendadas .contenedor-principal .flecha-izquierda{
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda {
     left: 0;
 }
-.peliculas-recomendadas .contenedor-principal .flecha-derecha{
+
+.peliculas-recomendadas .contenedor-principal .flecha-derecha {
     right: 0;
 }
-.peliculas-recomendadas .contenedor-carrusel{
+
+.peliculas-recomendadas .contenedor-carrusel {
     width: 100%;
     height: 350px;
     padding: 20px 0;
-    overflow: hidden; /*aqui si sobre sale del documento que corte las imagenes,limite*/
+    overflow: hidden;
+    /*aqui si sobre sale del documento que corte las imagenes,limite*/
     scroll-behavior: smooth;
 }
 
-.peliculas-recomendadas .contenedor-carrusel .carrusel{/*aqui trabajamos con el carrusel de peliculas*/
+.peliculas-recomendadas .contenedor-carrusel .carrusel {
+    /*aqui trabajamos con el carrusel de peliculas*/
     display: flex;
     flex-wrap: nowrap;
 }
+
 .peliculas-recomendadas .contenedor-carrusel .carrusel .pelicula2 {
-	min-width: 20%;
-	transition: .3s ease all;
-	box-shadow: 5px 5px 10px rgba(0,0,0, .3);
+    min-width: 20%;
+    transition: .3s ease all;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
 }
 
 .peliculas-recomendadas .contenedor-carrusel .carrusel .pelicula2.hover {
-	transform: scale(1.2);
-	transform-origin: center;
+    transform: scale(1.2);
+    transform-origin: center;
 }
 
 .peliculas-recomendadas .contenedor-carrusel .carrusel .pelicula2 img {
-	width: 100%;
-	vertical-align: top;
+    width: 100%;
+    vertical-align: top;
 }
+
 /*------titulos de las peliculas y duracion-----------*/
-.pelicula2{
+.pelicula2 {
     position: relative;
 }
-.encima{
+
+.encima {
     position: absolute;
     width: 100%;
     bottom: 10px;
     left: 15px;
     color: #fff;
 }
-.encima{
-    display: flex; 
+
+.encima {
+    display: flex;
     align-items: center;
-       
 }
-.encima > p{
+
+.encima>p {
     margin-left: 70px;
 }
-.encima > i{
+
+.encima>i {
     color: #E2618A;
     font-size: 25px;
 }
-.pelicula2 .titu_peli{
+
+.pelicula2 .titu_peli {
     margin-top: 10px;
 }
-.pelicula2 .titu_peli > h2,p{
+
+.pelicula2 .titu_peli>h2,
+p {
     color: #fff;
     font-weight: 400;
 }
 
-
-/*----------------------------------------------------*/
 /*-------------------------------------------------*/
 /*--FOOTER----------*/
-footer{
-    width: 100%; 
-    height: 150px;  
+footer {
+    width: 100%;
+    height: 150px;
 }
-.footer{
+
+.footer {
     width: 100%;
     display: block;
     text-align: center;
     background-color: #11151e;
-    height: 150px; 
+    height: 150px;
     align-items: center;
-    padding-top: 60px;     
+    padding-top: 60px;
 
 }
-.footer a{
+
+.footer a {
     text-decoration: none;
-    margin: auto; 
-    color: #E2618A; 
+    margin: auto;
+    color: #E2618A;
     padding-right: 30px;
 }
 
 /*---resonsive---------------*/
 @media screen and (max-width:700px) {
-    .titulo{
+    .titulo {
         margin-left: 10px;
     }
-    .galeria-peliculas{
+
+    .galeria-peliculas {
         display: grid;
         width: 90%;
         height: 300px;
-        grid-template-areas: 
-        "img1 img1 img2 img3"
-        "img1 img1 img4 imgh";
+        grid-template-areas:
+            "img1 img1 img2 img3"
+            "img1 img1 img4 imgh";
         gap: 10px;
     }
-    .pelicula{
+
+    .pelicula {
         position: relative;
         width: 100%;
         height: 100%;
         overflow: hidden;
     }
-    .img-pelicula{
+
+    .img-pelicula {
         width: 100%;
         height: 100%;
-        object-fit: cover; /*para qwue se ajuste al elemento*/
+        object-fit: cover;
+        /*para qwue se ajuste al elemento*/
         cursor: pointer;
-        
-    }   
-    .pelicula:nth-of-type(1){
+
+    }
+
+    .pelicula:nth-of-type(1) {
         grid-area: img1;
     }
-    .pelicula:nth-of-type(2){
+
+    .pelicula:nth-of-type(2) {
         grid-area: img2;
     }
-    .pelicula:nth-of-type(3){
+
+    .pelicula:nth-of-type(3) {
         grid-area: img3;
     }
-    .pelicula:nth-of-type(4){
+
+    .pelicula:nth-of-type(4) {
         grid-area: img4;
     }
-    .pelicula:nth-of-type(5){
+
+    .pelicula:nth-of-type(5) {
         grid-area: imgh;
     }
+
+    .pelicula2 {
+        width: 200px;
+        height: 175px;
+        margin-left: 10px;
+    }
+
+    .pelicula2 a img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .encima>p {
+        margin-left: 12px;
+    }
+
+    .pelicula2 .titu_peli>h2 {
+        font-size: 10px;
+    }
+
+    .pelicula2 .encima>h2,
+    p {
+        font-size: 8px;
+    }
+
+    .pelicula2 .encima>i {
+        font-size: 12px;
+    }
+
+    .pelicula2 {
+        height: 100px;
+    }
 }
+
 /*--estilos plantilla pelicula.html*/
-.contenido-pelicula{
+.contenido-pelicula {
     width: 100%;
     height: 200px;
-    display: flex;    
-    
+    display: flex;
+
 }
+
 .contenido-pelicula>img {
     width: 250px;
     height: 250px;
     animation: ease-in animat 1s;
     border-radius: 8px;
 }
+
 .textos-pelicula {
     margin: 0 0 0 30px;
 }
-.textos-pelicula h1{
+
+.textos-pelicula h1 {
     color: #fff;
     font-size: 30px;
     font-weight: 350;
@@ -366,7 +469,8 @@ footer{
     margin-top: 14px;
     color: #5D6678;
 }
-.contenido-pelicula .textos-pelicula >  a {
+
+.contenido-pelicula .textos-pelicula>a {
     margin: 28px 0 0 0;
     width: 118px;
     height: 46px;
@@ -380,23 +484,27 @@ footer{
     text-transform: uppercase;
     font-size: 14px;
     border-radius: 5px;
-    
+
 }
 
-.textos-pelicula .detalle > a{
+.textos-pelicula .detalle>a {
     display: block;
     color: #fff;
     text-decoration: none;
     font-size: 20px;
     font-weight: 250;
 }
+
 @media screen and (max-width:700px) {
-    .contenido-pelicula{
+    .contenido-pelicula {
         flex-direction: column;
         align-items: center;
         height: 450px;
     }
-    .textos-pelicula{
+
+    .textos-pelicula {
         margin-top: 15px;
     }
+
+
 }
