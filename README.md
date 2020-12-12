@@ -14,3 +14,5 @@ una ves analizada la pagina, iniciamos con crear nuestro repositorio local en gi
 - creamos nuestra carpeta del proyecto
 - y sub carpetas como img, css  y los archivos correspondientes
 
+![img1](https://user-images.githubusercontent.com/75353254/101993625-0ad7cb80-3c8a-11eb-8cc7-172faef3d993.jpg)
+
