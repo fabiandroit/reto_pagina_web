@@ -16,3 +16,15 @@ una ves analizada la pagina, iniciamos con crear nuestro repositorio local en gi
 
 ![](https://github.com/fabiandroit/reto_pagina_web/blob/master/img/imgg_a.jpg)
 
+#### desarrollo del proyecto del con imagenes
+
+- iniciamos con la estructura HTML
+- luego con la maquetacion CSS
+- fuimos avanzando poco a poco
+
+![](https://github.com/fabiandroit/reto_pagina_web/blob/master/img/responsive.jpg)
+
+![](https://github.com/fabiandroit/reto_pagina_web/blob/master/img/responsive2.jpg)
+
+![](https://github.com/fabiandroit/reto_pagina_web/blob/master/img/pagina%20de%20enlace.jpg)
+
